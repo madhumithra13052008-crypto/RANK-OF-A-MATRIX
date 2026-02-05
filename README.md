@@ -17,21 +17,18 @@ Using the np.linalg.matrix_rank(), we can find the rank of the given matrix.
 ## Step 4:
 
 End the program 
+
 ## Program:
-
+~~~
 #Program to find the rank of a matrix.
-
-#Developed by: MADHUMITHRA.P
-
-#RegisterNumber:212225230159
+#Developed by : MADHUMITHRA.P
+#RegisterNumber : 21225230159
 
 import numpy as np
-
-A=np.array([[1,2,3],[3,6,9]])
-
-x=np.linalg.matrix_rank(A)
-
-print(x)
+A=np.array([[3,2,5],[1,1,2],[3,3,6]])
+X=np.linalg.matrix_rank(A)
+print(X)
+~~~
 ## Output:
 
 <img width="1318" height="712" alt="Screenshot 2026-02-05 223249" src="https://github.com/user-attachments/assets/ef616730-372c-450c-9efb-1ac10b07bda8" />
